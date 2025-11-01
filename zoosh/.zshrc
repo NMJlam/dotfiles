@@ -16,6 +16,9 @@ alias skhd-config='nvim ~/.config/skhd/skhdrc'
 alias tmux-config='nvim ~/.config/tmux/.tmux.conf'
 alias yabai-config='nvim ~/.config/yabai/yabairc'
 
+alias restart='yabai --restart-service skhd --restart-service'
+alias **='exit'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
