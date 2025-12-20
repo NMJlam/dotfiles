@@ -53,9 +53,9 @@ macos-titlebar-style = hidden
 window-decoration = false
 
 # Quick terminal keybinds
-keybind = global:cmd+backquote=toggle_quick_terminal
 quick-terminal-position=center
 quick-terminal-size = 80%, 80%
+keybind = global:cmd+backquote=toggle_quick_terminal
 
 clipboard-read = allow
 clipboard-write = allow
