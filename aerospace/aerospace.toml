@@ -3,7 +3,10 @@
 
 # You can use it to add commands that run after AeroSpace startup.
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
+# Start JankyBorders with window borders (Catppuccin Mocha — matches ghostty theme)
+after-startup-command = [
+  'exec-and-forget borders active_color=0xffcba6f7 inactive_color=0xff45475a width=5.0'
+]
 
 # Start AeroSpace at login
 start-at-login = true 
